@@ -1,3 +1,5 @@
+// My approach
+
 class Solution {
     public List<String> fizzBuzz(int n) {
         String[] arr1 = new String[n];
@@ -20,3 +22,6 @@ class Solution {
         return Arrays.asList(arr1);
     }
 }
+
+// return type should be same as provided in the signature of code provided on leetcode, 
+//you cannot change the return type, for best approach solve it in list datatype only instead of array
